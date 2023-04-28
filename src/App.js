@@ -1,9 +1,9 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import BasicRouter from './router/Router';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <BasicRouter/>
     </Router>
   );
