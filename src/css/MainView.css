@@ -63,22 +63,14 @@ body {
     padding: 15px;
 }
 
-.books {
-    background-color: #FFF;
-    padding-top: 20px;
-}
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
-.search {
-    background-color: rgba(255, 255, 255, 0);
-}
-
 .sidemenu {
+    position: sticky;
     top: 0px;
     width: 250px;
 }
@@ -86,32 +78,6 @@ body {
 .content {
     min-width: 770px;
     width: calc(100% - 250px);
-}
-
-.gridcontainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 40px;
-}
-
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 30px;
-    text-align: center;
-    height: 400px;
-    margin: 10px;
-    border-radius: 20px;
-    padding-top: 20px;
-    transition-duration: 0.25s;
-    transition-timing-function: ease-in-out;
-}
-
-.grid-item:hover {
-    transform: scale(1.03);
-    box-shadow: 0px 0px 15px #00000030;
-    background-color: rgb(255, 255, 255);
 }
 
 .sidemenu h1 {
@@ -155,10 +121,6 @@ body {
 
 .sidemenu button:active {
     transform: scale(0.96);
-}
-
-.top {
-    background-color: rgba(255, 255, 255, 0);
 }
 
 .sidemenu ul {

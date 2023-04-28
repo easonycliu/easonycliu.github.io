@@ -1,29 +1,32 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 
 import SideMenu from "./SideMenu.js";
+import RightContent from "./RightContent.js";
 
 export default class Content extends React.Component {
-    constructor() {
-        super();
+    
+    constructor(props) {
+        super(props);
+        this.anchorChanged = this.onAnchorChanged.bind(this);
         this.state = {
-            search: '',
+            anchor: "Intro",
         };
     }
 
-    callback = (inputValue) => {
+    onAnchorChanged(newAnchor) {
+        console.log(`content set anchor to ${newAnchor}`);
         this.setState({
-            search: inputValue
+            anchor : newAnchor
         });
     }
 
     render() {
         return (
-            <div className='bigbox'>
-                <div className='clearfix'>
-                    <SideMenu callback={this.callback}/>
-                    <div className='column content'>
-                        <Outlet/> 
+            <div className="bigbox">
+                <div className="clearfix">
+                    <SideMenu callback={this.anchorChanged}/>
+                    <div className="column content">
+                        <RightContent anchor={this.state.anchor}/>
                     </div>
                 </div>
             </div>
