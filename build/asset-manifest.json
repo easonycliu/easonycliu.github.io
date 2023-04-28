@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.7f0440df.css",
-    "main.js": "./static/js/main.aab0f4eb.js",
-    "index.html": "./index.html",
-    "main.7f0440df.css.map": "./static/css/main.7f0440df.css.map",
-    "main.aab0f4eb.js.map": "./static/js/main.aab0f4eb.js.map"
+    "main.css": "/yichengliu.github.io/static/css/main.7f0440df.css",
+    "main.js": "/yichengliu.github.io/static/js/main.aab0f4eb.js",
+    "index.html": "/yichengliu.github.io/index.html",
+    "main.7f0440df.css.map": "/yichengliu.github.io/static/css/main.7f0440df.css.map",
+    "main.aab0f4eb.js.map": "/yichengliu.github.io/static/js/main.aab0f4eb.js.map"
   },
   "entrypoints": [
     "static/css/main.7f0440df.css",
