@@ -3,7 +3,7 @@ import BasicRouter from './router/Router';
 
 function App() {
   return (
-    <Router basename='/'>
+    <Router basename='/yichengliu.github.io'>
       <BasicRouter/>
     </Router>
   );
