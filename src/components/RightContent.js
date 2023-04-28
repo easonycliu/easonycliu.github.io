@@ -1,7 +1,5 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import BookHeader from "./BookHeader.js";
-import BookList from "./BookList.js";
 
 export default function RightContent() {
     var { op, info } = useParams();
@@ -19,8 +17,7 @@ export default function RightContent() {
     }
     return (
         <div>
-            <BookHeader classification={classification}/>
-            <BookList search={search} classification={classification}/>
+            Hello
         </div>
     );
 }
