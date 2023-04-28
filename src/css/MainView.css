@@ -142,6 +142,7 @@ body {
 
 .sidemenu li a:hover {
     background-color: #EEE;
+    cursor: pointer;
     transform: scale(1);
 }
 
