@@ -45,7 +45,7 @@ export default class RightContent extends React.Component {
                     </p>
 
                     <p>
-                        I have an experience on research of Artificial Intelligence. And I am willing to combime this experience with system research.
+                        I have an experience on research of Artificial Intelligence. And I am willing to combime this experience with system research, e.g., AI for SYS.
                     </p>
                 </div>
 

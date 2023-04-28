@@ -6,7 +6,7 @@ import MainVeiw from "../view/MainView.js"
 
 var index = [
     {
-        path: '/home',
+        path: '/',
         element: <MainVeiw />,
         // children: [
         //     {
@@ -14,11 +14,11 @@ var index = [
         //         element: <RightContent />
         //     }
         // ]
-    },
-    {
-        path: '/',
-        element: <Navigate to='/home' />
     }
+    // {
+    //     path: '/',
+    //     element: <Navigate to='/home' />
+    // }
 ];
 
 export default index;
