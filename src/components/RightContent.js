@@ -25,7 +25,7 @@ export default class RightContent extends React.Component {
                         I am now a student at Institution of Parallel And Distributed System (IPADS), advised by Prof. Changliu Liu.
                     </p>
                     <p>
-                        <a href="liuyicheng1515@sjtu.edu.cn">Email</a> / <a href="https://liuyc1515.github.io/yichengliu.github.io/cv">CV</a> / <a href="https://github.com/liuyc1515/">GitHub</a>
+                        <a href="mailto:liuyicheng1515@sjtu.edu.cn">Email</a> / <a href="https://liuyc1515.github.io/yichengliu.github.io/cv">CV</a> / <a href="https://github.com/liuyc1515/">GitHub</a>
                     </p>
                 </div>
 

@@ -8,7 +8,7 @@ export default class MainVeiw extends React.Component {
     render() {
         return(
             <div>
-                <TopMenu/>
+                {/* <TopMenu/> */}
                 <Content/>
             </div>
         );
