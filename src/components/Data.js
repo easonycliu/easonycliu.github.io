@@ -44,18 +44,18 @@ var researchExperience = [
 var projects = [
     {
         name: "Mini Basic",
-        ref: "",
-        description: ""
+        ref: "https://github.com/liuyc1515/MiniBasic/tree/master",
+        description: "An basic interpreter. Input basic language code in the left column and the result will be shown in the right one. Currently it support PRINT, GOTO, IF ELSE, and mathematical expression."
     },
     {
         name: "Inode File System",
-        ref: "",
-        description: ""
+        ref: "https://github.com/liuyc1515/InodeFS",
+        description: "A file system based on inode, which support a redo-only fixup policy to recover from crash."
     },
     {
         name: "Parabox for Shell",
-        ref: "",
-        description: ""
+        ref: "https://github.com/liuyc1515/Parabox",
+        description: "Inspired by the game Parabox and here is the cli version of Parabox, which contains most of the functions of the origin Parabox. Different maps and starting UI are to be finished in the future. Using w, a, s, d to control player (P) and try pushing the block to the target (T), there are many different kinds of blocks and each has different interaction logic."
     },
 ]
 

@@ -18,7 +18,15 @@ export default class RightContent extends React.Component {
         return (
             <div>
                 <div id="Intro">
-                    Hello
+                    <h1>Yicheng Liu</h1>
+                    <p>I am now an undergraduate student at Shanghai Jiao Tong University (SJTU), majoring in Automation (Sensor).</p>
+                    <p>
+                        I have been working as a research intern at John Hopcoft Center since 2021, advised by Guanjie Zheng. 
+                        I am now a student at Institution of Parallel And Distributed System (IPADS), advised by Prof. Changliu Liu.
+                    </p>
+                    <p>
+                        <a href="liuyicheng1515@sjtu.edu.cn">Email</a> / <a href="https://liuyc1515.github.io/yichengliu.github.io/cv">CV</a> / <a href="https://github.com/liuyc1515/">GitHub</a>
+                    </p>
                 </div>
 
                 <div id="Research Experiences">
@@ -38,14 +46,21 @@ export default class RightContent extends React.Component {
                     <h2>Research Interests</h2>
                     <p>
                         Currently I am focusing on system security, especially virtual machine (VM) security and container security.
+                        In security, there are three main targets, Confidentiality, Integrigy, Avalibility (CIA). Currently most researches
+                        forcus on the former two targets. And I strive to push the limits of defending avalibility based attacks while keep 
+                        the ability in keeping confidentiality and integrity.
                     </p>
 
                     <p>
-                        I am also happy to try up some exciting topics like distributed storage, GPU accelerated training, etc.
+                        I am also happy to try up some exciting topics like distributed storage, GPU accelerated training, etc. These are especially needed
+                        because recent days big models in AI sprang up in CV, NLP, and will be in more and more other fields, and to support these big models,
+                        GPU cluster is needed to accelerate training, and distributed storage is needed to store huge amount of training dataset.
                     </p>
 
                     <p>
                         I have an experience on research of Artificial Intelligence. And I am willing to combime this experience with system research, e.g., AI for SYS.
+                        As I know, there are already some AI technologies applied to testing area, like reinforcement learning based fuzzer. And I think since there are 
+                        many predicting related situations, e.g., cache & memory swap, AI can take a more important role in system area.
                     </p>
                 </div>
 
