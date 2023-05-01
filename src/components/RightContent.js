@@ -23,7 +23,7 @@ export default class RightContent extends React.Component {
                     <p>I am now an undergraduate student at Shanghai Jiao Tong University (SJTU), majoring in Automation (Sensor).</p>
                     <p>
                         I have been working as a research intern at John Hopcoft Center since 2021, advised by Guanjie Zheng. 
-                        I am now a student at Institution of Parallel And Distributed System (IPADS), advised by Prof. Changliu Liu.
+                        I am now a student at Institution of Parallel And Distributed System (IPADS), advised by Jinyu Gu.
                     </p>
                     <div className="link">
                         <p>

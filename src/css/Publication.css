@@ -6,8 +6,17 @@
     color: #888;
 }
 
+.myself {
+    font-weight: bolder;
+}
+
 .authors {
     color: #000;
+}
+
+.authors p {
+    padding: 0px;
+    margin: 0px;
 }
 
 .paper {
