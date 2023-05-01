@@ -154,3 +154,29 @@ body {
     background-color: #2196F3;
     color: #FFF;
 }
+
+.link {
+    color: #74beff
+}
+
+.link a{
+    color: #74beff;
+    display: inline-block;
+    text-decoration:none;
+}
+
+.link a:hover{
+    background-color: #FFF;
+    color: #74beff;
+    cursor: pointer;
+    transform: scale(1.03);
+    border-radius: 3px;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+}
+
+.link a:focus {
+    background-color: #FFF;
+    color: #74beff;
+    cursor: pointer;
+}

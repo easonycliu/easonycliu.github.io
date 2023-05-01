@@ -2,6 +2,7 @@ import React from "react";
 import Experience from "./Experience.js";
 import { Conference, Arxiv } from "./Publication.js";
 import Project from "./Project.js";
+import cv from "../assets/CV_Yicheng_Liu.pdf"
 
 export default class RightContent extends React.Component {
 
@@ -24,9 +25,12 @@ export default class RightContent extends React.Component {
                         I have been working as a research intern at John Hopcoft Center since 2021, advised by Guanjie Zheng. 
                         I am now a student at Institution of Parallel And Distributed System (IPADS), advised by Prof. Changliu Liu.
                     </p>
-                    <p>
-                        <a href="mailto:liuyicheng1515@sjtu.edu.cn">Email</a> / <a href="https://liuyc1515.github.io/yichengliu.github.io/cv">CV</a> / <a href="https://github.com/liuyc1515/">GitHub</a>
-                    </p>
+                    <div className="link">
+                        <p>
+                            <a href="mailto:liuyicheng1515@sjtu.edu.cn">Email</a> / <a href={cv}>CV</a> / <a href="https://github.com/liuyc1515/">GitHub</a>
+                        </p>
+                    </div>
+                    
                 </div>
 
                 <div id="Research Experiences">
@@ -68,7 +72,7 @@ export default class RightContent extends React.Component {
                     <h2>Reviewer Services</h2>
                     <ul>
                         <li>Knowledge Discovery and Data Mining (KDD), 2023</li>
-                        <li>International Conference on Machine Learning (ICML), 2023</li>
+                        <li>International Conference on Machine Learning (ICML) 2023</li>
                         <li>International Joint Conferences on Artificial Intelligence (IJCAI), 2023</li>
                     </ul>
                 </div>

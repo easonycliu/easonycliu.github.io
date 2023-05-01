@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/MainView.css';
 import '../css/BoxSize.css';
-import TopMenu from '../components/TopMenu.js'
+import '../css/Publication.css'
 import Content from '../components/Content';
 
 export default class MainVeiw extends React.Component {

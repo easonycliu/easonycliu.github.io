@@ -9,7 +9,7 @@ export default class Project extends React.Component {
                     projects.map((project) => {
                         return (
                             <div>
-                                <a href={project.ref}>{project.name}</a>
+                                <div className="link"><a href={project.ref}>{project.name}</a></div>
                                 <p>{project.description}</p>
                             </div>
                         );

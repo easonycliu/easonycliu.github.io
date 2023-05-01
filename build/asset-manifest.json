@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.7f0440df.css",
-    "main.js": "./static/js/main.2f3656b0.js",
+    "main.css": "./static/css/main.ffff5588.css",
+    "main.js": "./static/js/main.d3992115.js",
+    "static/media/CV_Yicheng_Liu.pdf": "./static/media/CV_Yicheng_Liu.1dd011dfa8b2c701eec1.pdf",
     "index.html": "./index.html",
-    "main.7f0440df.css.map": "./static/css/main.7f0440df.css.map",
-    "main.2f3656b0.js.map": "./static/js/main.2f3656b0.js.map"
+    "main.ffff5588.css.map": "./static/css/main.ffff5588.css.map",
+    "main.d3992115.js.map": "./static/js/main.d3992115.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f0440df.css",
-    "static/js/main.2f3656b0.js"
+    "static/css/main.ffff5588.css",
+    "static/js/main.d3992115.js"
   ]
 }

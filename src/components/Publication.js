@@ -1,4 +1,5 @@
 import React from "react";
+
 import {conferencePaper, arxivPaper} from "./Data.js";
 
 class Conference extends React.Component {
@@ -9,10 +10,21 @@ class Conference extends React.Component {
                     conferencePaper.map((paper) => {
                         return (
                             <div>
-                                <a>{paper.title}</a>
-                                <p>{paper.authors}</p>
-                                <p>{paper.conference}</p>
-                                <p>{paper.abstract}</p>
+                                <div className="paper"><a href={paper.paperLink}>{paper.title}</a></div>
+                                <div className="authors">{paper.authors}</div>
+                                <div className="conference">{paper.conference}</div>
+                                <div className="paper">
+                                    <p>
+                                        {
+                                            paper.links.map((oneItem) => {
+                                                return (
+                                                    <a href={oneItem.oneLink}>{oneItem.oneContent}&nbsp;</a> 
+                                                )
+                                            })
+                                        }
+                                    </p>
+                                </div>
+                                <div className="abstract">{paper.abstract}</div>
                             </div>
                         );
                     })
@@ -30,9 +42,20 @@ class Arxiv extends React.Component {
                     arxivPaper.map((paper) => {
                         return (
                             <div>
-                                <a>{paper.title}</a>
-                                <p>{paper.authors}</p>
-                                <p>{paper.abstract}</p>
+                                <div className="paper"><a href={paper.paperLink}>{paper.title}</a></div>
+                                <div className="authors">{paper.authors}</div>
+                                <div className="paper">
+                                    <p>
+                                        {
+                                            paper.links.map((oneItem) => {
+                                                return (
+                                                    <a href={oneItem.oneLink}>{oneItem.oneContent}&nbsp;</a>
+                                                )
+                                            })
+                                        }
+                                    </p>
+                                </div>
+                                <div className="abstract">{paper.abstract}</div>
                             </div>
                         );
                     })
