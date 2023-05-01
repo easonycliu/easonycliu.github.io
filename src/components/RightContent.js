@@ -49,22 +49,21 @@ export default class RightContent extends React.Component {
                 <div id="Research Interests">
                     <h2>Research Interests</h2>
                     <p>
-                        Currently I am focusing on system security, especially virtual machine (VM) security and container security.
-                        In security, there are three main targets, Confidentiality, Integrigy, Avalibility (CIA). Currently most researches
-                        forcus on the former two targets. And I strive to push the limits of defending avalibility based attacks while keep 
-                        the ability in keeping confidentiality and integrity.
+                        Currently, my focus is on system security, with a specific emphasis on virtual machine (VM) and container security. 
+                        In the realm of security, there exist three primary objectives: Confidentiality, Integrity, and Availability (CIA). 
+                        While the majority of research in this field has concentrated on maintaining confidentiality and integrity, 
+                        I am dedicated to extending the boundaries of defending against availability-based attacks while concurrently upholding confidentiality and integrity.
                     </p>
 
                     <p>
-                        I am also happy to try up some exciting topics like distributed storage, GPU accelerated training, etc. These are especially needed
-                        because recent days big models in AI sprang up in CV, NLP, and will be in more and more other fields, and to support these big models,
-                        GPU cluster is needed to accelerate training, and distributed storage is needed to store huge amount of training dataset.
+                        I am alse excited to explore topics like distributed storage and GPU-accelerated training, which are becoming increasingly vital as we continue to develop larger models in areas such as computer vision (CV) and natural language processing (NLP), among others. 
+                        To support these models, we require GPU clusters to accelerate training time and distributed storage to house vast amounts of training data.
                     </p>
 
                     <p>
-                        I have an experience on research of Artificial Intelligence. And I am willing to combime this experience with system research, e.g., AI for SYS.
-                        As I know, there are already some AI technologies applied to testing area, like reinforcement learning based fuzzer. And I think since there are 
-                        many predicting related situations, e.g., cache & memory swap, AI can take a more important role in system area.
+                        I have experience in artificial intelligence (AI) research and am eager to combine this expertise with system research, such as utilizing AI for SYS. 
+                        I am aware that some AI technologies have already been applied to the testing arena, such as reinforcement learning-based fuzzers. 
+                        However, I believe that AI can play a crucial role in system research due to the many predicting-related situations, such as cache and memory swapping.
                     </p>
                 </div>
 
