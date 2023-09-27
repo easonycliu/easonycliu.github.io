@@ -15,16 +15,16 @@ class Conference extends React.Component {
                                     <p>
                                         {
                                             paper.authors.map((author) => {
-                                                if (author === "Yicheng Liu")
+                                                if (author.includes("Yicheng Liu"))
                                                 {
                                                     return (
-                                                        <div className="myself">{author}&nbsp;</div> 
+                                                        <nobr className="myself">{author};&nbsp;</nobr>
                                                     )
                                                 }
                                                 else
                                                 {
                                                     return (
-                                                        <div>{author}&nbsp;</div> 
+                                                        <nobr>{author};&nbsp;</nobr> 
                                                     )
                                                 }
                                             })
@@ -62,7 +62,26 @@ class Arxiv extends React.Component {
                         return (
                             <div>
                                 <div className="paper"><a href={paper.paperLink}>{paper.title}</a></div>
-                                <div className="authors">{paper.authors}</div>
+                                <div className="authors">
+                                    <p>
+                                        {
+                                            paper.authors.map((author) => {
+                                                if (author.includes("Yicheng Liu"))
+                                                {
+                                                    return (
+                                                        <nobr className="myself">{author};&nbsp;</nobr>
+                                                    )
+                                                }
+                                                else
+                                                {
+                                                    return (
+                                                        <nobr>{author};&nbsp;</nobr> 
+                                                    )
+                                                }
+                                            })
+                                        }
+                                    </p>
+                                </div>
                                 <div className="paper">
                                     <p>
                                         {

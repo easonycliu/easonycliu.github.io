@@ -20,10 +20,11 @@ export default class RightContent extends React.Component {
             <div>
                 <div id="Intro">
                     <h1>Yicheng Liu</h1>
-                    <p>I am now an undergraduate student at Shanghai Jiao Tong University (SJTU), majoring in Automation (Sensor).</p>
+                    <p>I am now an undergraduate student at Shanghai Jiao Tong University (SJTU).</p>
                     <p>
                         I have been working as a research intern at John Hopcoft Center since 2021, advised by Guanjie Zheng. 
-                        I am now a student at Institution of Parallel And Distributed System (IPADS), advised by Prof. Changliu Liu.
+                        I am now a student at Institution of Parallel And Distributed System (IPADS), advised by Jinyu Gu.
+                        In this summer, I visited and took part in the research in University of Michigan, advised by Ryan Huang and mentored by Yigong Hu.
                     </p>
                     <div className="link">
                         <p>
