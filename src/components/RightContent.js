@@ -24,7 +24,7 @@ export default class RightContent extends React.Component {
                     <p>
                         I have been working as a research intern at John Hopcoft Center since 2021, advised by Guanjie Zheng. 
                         I am now a student at Institution of Parallel And Distributed System (IPADS), advised by Jinyu Gu.
-                        In this summer, I visited and took part in the research in University of Michigan, advised by Ryan Huang and mentored by Yigong Hu.
+                        In this summer, I visited and took part in the research in University of Michigan, OrderLab, advised by Ryan Huang and mentored by Yigong Hu.
                     </p>
                     <div className="link">
                         <p>
@@ -43,7 +43,7 @@ export default class RightContent extends React.Component {
                     <h2>Publications</h2>
                     <h4>Conference</h4>
                     <Conference />
-                    <h4>arXiv</h4>
+                    {/* <h4>arXiv</h4> */}
                     <Arxiv />
                 </div>
 

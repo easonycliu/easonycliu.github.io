@@ -44,6 +44,7 @@ class Conference extends React.Component {
                                     </p>
                                 </div>
                                 <div className="abstract">{paper.abstract}</div>
+                                <p></p>
                             </div>
                         );
                     })
