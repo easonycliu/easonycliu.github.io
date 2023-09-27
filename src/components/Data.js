@@ -46,12 +46,17 @@ var arxivPaper = [
 
 var researchExperience = [
     {
+        institution: "University of Michigan, OrderLab, advised by Ryan Huang",
+        workings: [
+            "Develop an auto cancellation system in Java."
+        ]
+    },
+    {
         institution: "Shanghai Jiao Tong University, Institution of Parallel And Distributed System (IPADS), advised by Jinyu Gu",
         workings: [
             "Develop an autopilot system.",
-            "Manage and develop a sanitizer system in institution's own micro kernel operating system.",
-            "Research in container security.",
-            "Survey and reproduce security related CVEs."
+            "Develop a sanitizer system in institution's own micro kernel operating system.",
+            "Research in container security."
         ]
     },
     {
