@@ -11,7 +11,26 @@ class Conference extends React.Component {
                         return (
                             <div>
                                 <div className="paper"><a href={paper.paperLink}>{paper.title}</a></div>
-                                <div className="authors">{paper.authors}</div>
+                                <div className="authors">
+                                    <p>
+                                        {
+                                            paper.authors.map((author) => {
+                                                if (author === "Yicheng Liu")
+                                                {
+                                                    return (
+                                                        <div className="myself">{author}&nbsp;</div> 
+                                                    )
+                                                }
+                                                else
+                                                {
+                                                    return (
+                                                        <div>{author}&nbsp;</div> 
+                                                    )
+                                                }
+                                            })
+                                        }
+                                    </p>
+                                </div>
                                 <div className="conference">{paper.conference}</div>
                                 <div className="paper">
                                     <p>
