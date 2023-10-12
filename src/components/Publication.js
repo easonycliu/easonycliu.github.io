@@ -62,24 +62,22 @@ class Arxiv extends React.Component {
                             <div>
                                 <div className="paper"><a href={paper.paperLink}>{paper.title}</a></div>
                                 <div className="authors">
-                                    <p>
-                                        {
-                                            paper.authors.map((author) => {
-                                                if (author.includes("Yicheng Liu"))
-                                                {
-                                                    return (
-                                                        <nobr className="myself">{author};&nbsp;</nobr>
-                                                    )
-                                                }
-                                                else
-                                                {
-                                                    return (
-                                                        <nobr>{author};&nbsp;</nobr> 
-                                                    )
-                                                }
-                                            })
-                                        }
-                                    </p>
+                                    {
+                                        paper.authors.map((author) => {
+                                            if (author.includes("Yicheng Liu"))
+                                            {
+                                                return (
+                                                    <box className="myself">{author};&nbsp;</box>
+                                                )
+                                            }
+                                            else
+                                            {
+                                                return (
+                                                    <box>{author};&nbsp;</box> 
+                                                )
+                                            }
+                                        })
+                                    }
                                 </div>
                                 <div className="paper">
                                     <p>
