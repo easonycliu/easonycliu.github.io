@@ -26,3 +26,9 @@
         width: 1800px;
     }
 }
+
+@media only screen and (min-width: 2360px) {
+    .bigbox {
+        width: 2050px;
+    }
+}
