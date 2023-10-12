@@ -15,7 +15,7 @@
 }
 
 .authors p {
-    white-space: pre-line;
+    display: inline;
     padding: 0px;
     margin: 0px;
 }
