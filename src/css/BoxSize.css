@@ -9,26 +9,8 @@
     }
 }
 
-@media only screen and (max-width: 1760px) and (min-width: 1460px) {
+@media only screen and (min-width: 1460px) {
     .bigbox {
         width: 1300px;
-    }
-}
-
-@media only screen and (max-width: 2060px) and (min-width: 1760px) {
-    .bigbox {
-        width: 1550px;
-    }
-}
-
-@media only screen and (max-width: 2360px) and (min-width: 2060px) {
-    .bigbox {
-        width: 1800px;
-    }
-}
-
-@media only screen and (min-width: 2360px) {
-    .bigbox {
-        width: 2050px;
     }
 }
