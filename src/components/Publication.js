@@ -12,22 +12,24 @@ class Conference extends React.Component {
                             <div>
                                 <div className="paper"><a href={paper.paperLink}>{paper.title}</a></div>
                                 <div className="authors">
-                                    {
-                                        paper.authors.map((author) => {
-                                            if (author.includes("Yicheng Liu"))
-                                            {
-                                                return (
-                                                    <box><nobr className="myself">{author};&nbsp;</nobr></box>
-                                                )
-                                            }
-                                            else
-                                            {
-                                                return (
-                                                    <box><nobr>{author};&nbsp;</nobr></box>
-                                                )
-                                            }
-                                        })
-                                    }
+                                    <p>
+                                        {
+                                            paper.authors.map((author) => {
+                                                if (author.includes("Yicheng Liu"))
+                                                {
+                                                    return (
+                                                        <box className="myself">{author};&nbsp;</box>
+                                                    )
+                                                }
+                                                else
+                                                {
+                                                    return (
+                                                        <box>{author};&nbsp;</box> 
+                                                    )
+                                                }
+                                            })
+                                        }
+                                    </p>
                                 </div>
                                 <div className="conference">{paper.conference}</div>
                                 <div className="paper">
