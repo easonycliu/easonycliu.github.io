@@ -17,13 +17,13 @@ class Conference extends React.Component {
                                             if (author.includes("Yicheng Liu"))
                                             {
                                                 return (
-                                                    <p><nobr className="myself">{author};&nbsp;</nobr></p>
+                                                    <box><nobr className="myself">{author};&nbsp;</nobr></box>
                                                 )
                                             }
                                             else
                                             {
                                                 return (
-                                                    <p><nobr>{author};&nbsp;</nobr></p>
+                                                    <box><nobr>{author};&nbsp;</nobr></box>
                                                 )
                                             }
                                         })
