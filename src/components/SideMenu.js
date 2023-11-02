@@ -30,8 +30,8 @@ export default class SideMenu extends React.Component {
     render() {
         return (
             <div className='column sidemenu'>
+                <img src={photo} alt="photo"/>
                 <ul>
-                    <img src={photo} alt="photo"/>
                     {
                         classifications.map((element, index) => {
                             return (
