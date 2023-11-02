@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.09e05625.css",
+    "main.js": "./static/js/main.fe761789.js",
+    "static/media/CV_Yicheng_Liu.pdf": "./static/media/CV_Yicheng_Liu.3954eecf2e60a5e7189a.pdf",
+    "index.html": "./index.html",
+    "main.09e05625.css.map": "./static/css/main.09e05625.css.map",
+    "main.fe761789.js.map": "./static/js/main.fe761789.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09e05625.css",
+    "static/js/main.fe761789.js"
+  ]
+}
