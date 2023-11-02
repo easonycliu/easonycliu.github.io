@@ -34,6 +34,6 @@ git add .
 git commit -m "x message"
 
 # Push to the github
-git push origin master
+git push origin main
 git subtree push --prefix=build origin gh-pages
 ```
