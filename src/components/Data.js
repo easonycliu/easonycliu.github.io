@@ -77,19 +77,9 @@ var researchExperience = [
 
 var projects = [
     {
-        name: "Mini Basic",
-        ref: "https://github.com/liuyc1515/MiniBasic/tree/master",
-        description: "An basic interpreter. Input basic language code in the left column and the result will be shown in the right one. Currently it supports PRINT, GOTO, IF ELSE, and mathematical expression."
-    },
-    {
-        name: "LSM-KV",
-        ref: "https://github.com/liuyc1515/LSM-KV",
-        description: "An Key-Value storage and query system which leverages bloom filter and skiplist to accelerate in-memory KV query and SStable to accelerate in-disk KV query."
-    },
-    {
-        name: "Inode File System",
-        ref: "https://github.com/liuyc1515/InodeFS",
-        description: "A file system based on inode, which support a redo-only fixup policy to recover from crash."
+        name: "CjCPre",
+        ref: "https://gitee.com/ipads-lab/chcore-lab",
+        description: "A microkernel operating system. As one of the contributors, I add a sanitizer into it to dynamically detect bugs like out-of-bound and use-after-free."
     },
     {
         name: "Parabox for Shell",
