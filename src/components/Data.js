@@ -77,7 +77,7 @@ var researchExperience = [
 
 var projects = [
     {
-        name: "CjCPre",
+        name: "ChCore",
         ref: "https://gitee.com/ipads-lab/chcore-lab",
         description: "A microkernel operating system. As one of the contributors, I add a sanitizer into it to dynamically detect bugs like out-of-bound and use-after-free."
     },

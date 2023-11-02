@@ -1,4 +1,5 @@
 import React from "react";
+import photo from "../assets/photo.PNG"
 
 // var noteStyle = {
 //     fontSize: 12,
@@ -8,10 +9,9 @@ import React from "react";
 
 const classifications = [
     "Intro",
+    "Research Interests",
     "Research Experiences",
     "Publications",
-    "Research Interests",
-    "Reviewer Services",
     "Projects"
 ]
 
@@ -31,6 +31,7 @@ export default class SideMenu extends React.Component {
         return (
             <div className='column sidemenu'>
                 <ul>
+                    <img src={photo} alt="photo"/>
                     {
                         classifications.map((element, index) => {
                             return (
