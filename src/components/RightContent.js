@@ -22,7 +22,7 @@ export default class RightContent extends React.Component {
                     <h1>Yicheng Liu</h1>
                     <p>I am now an undergraduate student at Shanghai Jiao Tong University (SJTU).</p>
                     <p>
-                        I'm an intern at Institution of Parallel And Distributed System (IPADS), advised by Jinyu Gu and Haibo Chen.
+                        I'm an intern at Institution of Parallel And Distributed System (IPADS), advised by Jinyu Gu.
                         In this summer, I visited and took part in the research in University of Michigan, OrderLab, advised by Ryan Huang and mentored by Yigong Hu.
                     </p>
                     <div className="link">
