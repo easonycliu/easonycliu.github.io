@@ -1,0 +1,16 @@
+.bigbox {
+    min-width: 1020px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1460px) {
+    .bigbox {
+        width: 1050px;
+    }
+}
+
+@media only screen and (min-width: 1460px) {
+    .bigbox {
+        width: 1300px;
+    }
+}
