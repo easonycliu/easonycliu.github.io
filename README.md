@@ -1,3 +1,7 @@
+# WARNING: This branch has been deprecated
+# WARNING: This branch has been deprecated
+# WARNING: This branch has been deprecated
+
 # Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
